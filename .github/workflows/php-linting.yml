@@ -1,0 +1,12 @@
+name: php-linting-code
+
+on: push
+
+jobs:
+  php-linting-code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: michaelw90 PHP-Linter
+        uses: actions/checkout@v1
+        uses: michaelw90/PHP-Lint@master
