@@ -8,7 +8,7 @@ echo       "Test";
 
 
 
-$sum = 5 +6;
+$sum = 5 +6
 
 
-print  $sum;
+           print  $sum;
